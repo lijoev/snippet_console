@@ -9,7 +9,7 @@
 1. Clone snippet_console project from below url to the Project directory
    ```
     $ cd ~/Projects
-    $ git clone <github url>
+    $ git clone https://github.com/lijoev/snippet_console.git
    ```
 
 2. project dependencies are managed by requirements.txt file. See the files for dependency list
