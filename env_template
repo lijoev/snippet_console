@@ -1,0 +1,5 @@
+SECRET_KEY=django-insecure-vni0k15c(0f_hv^i_ezd0o8z3t4u+m5&4q*otd69(gh((f^@m0
+DATABASES_NAME=snippet_console.sqlite3
+DEVELOPMENT=True
+DEBUG=True
+SNIPPETCONSOLE_SETTINGS_MODULE=snippet_console.settings.development

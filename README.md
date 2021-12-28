@@ -17,9 +17,18 @@
    
 3. Environment variables are managed using `python decouple module` and `.env file`
    ```
-    Enviroment variables explained below   
+    Enviroment variables explained below.
+    1. SECRET_KEY: Secret key for django application
+    2. DATABASES_NAME: Database name for snippet application
+    3. DEVELOPMENT: Boolean value to specify the app is in developement or not
+    4. DEBUG: Boolean value to specify debug
+    5. SNIPPETCONSOLE_SETTINGS_MODULE: Doted path for the settings file to use. Use development.py for developement and production.py for production environment
+   
    ```
-4. Set up the python virtual environment and project dependencies by following below steps
+4. Rename the ```env_template``` file to ```.env``` and keep it in root directory
+
+
+5. Set up the python virtual environment and project dependencies by following below steps
    1. Navigate to the Project directory using below command
        ```$ cd ~/Projects/snippet_console ```
    2. create the virtual environment using below command

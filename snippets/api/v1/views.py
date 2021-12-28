@@ -16,7 +16,7 @@ class SnippetViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
     serializer_class = ShortSnippetListSerializer
     model = ShortSnippet
-    queryset = ShortSnippet.objects.all()
+    queryset = ShortSnippet.objects.all().order_by('-created_on')
 
     def list(self, request, *args, **kwargs):
         """
@@ -101,7 +101,7 @@ class TagViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
     serializer_class = TagListSerializer
     model = Tag
-    queryset = Tag.objects.all()
+    queryset = Tag.objects.all().order_by('-id')
 
     def list(self, request, *args, **kwargs):
         """
